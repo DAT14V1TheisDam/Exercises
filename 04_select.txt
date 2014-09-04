@@ -1,0 +1,12 @@
+1. SELECT name FROM customers;
+2. SELECT name, last_name FROM customers;
+3. SELECT name, last_name, phone, email FROM customers;
+4. SELECT email, phone FROM customers;
+5. SELECT * FROM customers;
+6. SELECT name FROM customers WHERE last_name = "Hansen";
+7. SELECT name, last_name FROM customers WHERE name = "Per";
+8. SELECT * FROM customers WHERE phone = "82647351";
+9. SELECT name, phone FROM customers WHERE email = "bent@kea.dk";
+10. SELECT id FROM customers WHERE email = "pave@kea.dk";
+11. 
+12. SELECT name, last_name FROM customers WHERE name = "Claus" AND last_name = "Bové";
